@@ -2,6 +2,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+set nocompatible
+
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 if has("autocmd")
@@ -30,6 +32,7 @@ set incsearch		" Incremental search
 "set mouse=a		" Enable mouse usage (all modes) in terminals
 
 set hls
+set ruler
 
 let $LOGNAME="oxy"
 let g:rvSaveDirectoryName="/home/elmar/.vim/RCS/"
