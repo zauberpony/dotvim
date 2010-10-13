@@ -37,20 +37,23 @@ set ruler
 let $LOGNAME="oxy"
 let g:rvSaveDirectoryName="/home/elmar/.vim/RCS/"
 let g:rvSaveDirectoryType=1
-
 let g:netrw_ftp_cmd="ftp -p"
 
 "set number
 set relativenumber
+
 set undofile
 set undodir=~/.vim/undodir/
 
 set cursorline
-highlight CursorLine ctermbg=lightgray cterm=none
+highlight CursorLine ctermbg=Red cterm=none
 
+" ignore whitespace in vimdiff
 set diffopt+=iwhite
 
-" fugitive statusline (e.g. current branch)
-set statusline+=%{fugitive#statusline()}
-
 let mapleader = ","
+
+" statusline settings
+set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
+" always show statusline
+set laststatus=2
