@@ -37,8 +37,8 @@ let g:rvSaveDirectoryType=1
 
 let g:netrw_ftp_cmd="ftp -p"
 
-set number
-" set relativenumber
+"set number
+set relativenumber
 set undofile
 set undodir=~/.vim/undodir/
 
