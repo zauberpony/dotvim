@@ -22,3 +22,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = http://github.com/ervandew/supertab.git
+[submodule "bundle/searchcomplete"]
+	path = bundle/searchcomplete
+	url = http://github.com/vim-scripts/SearchComplete.git
