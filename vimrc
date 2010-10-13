@@ -49,3 +49,5 @@ set diffopt+=iwhite
 
 " fugitive statusline (e.g. current branch)
 set statusline+=%{fugitive#statusline()}
+
+let mapleader = ","
