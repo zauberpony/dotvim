@@ -31,6 +31,9 @@ set incsearch		" Incremental search
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes) in terminals
 
+set backspace=eol,start
+set tabstop=4
+
 set hls
 set ruler
 
