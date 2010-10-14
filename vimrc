@@ -17,8 +17,21 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+
+" **** visual settings ****
 syntax on
 set background=dark
+
+" show the current line as red bar
+set cursorline
+highlight CursorLine ctermbg=Red cterm=none
+
+" statusline appereance
+set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
+" always show statusline
+set laststatus=2
+" *************************
+
 
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
@@ -37,26 +50,21 @@ set tabstop=4
 set hls
 set ruler
 
-let $LOGNAME="oxy"
-let g:rvSaveDirectoryName="/home/elmar/.vim/RCS/"
-let g:rvSaveDirectoryType=1
-let g:netrw_ftp_cmd="ftp -p"
-
 "set number
 set relativenumber
 
 set undofile
 set undodir=~/.vim/undodir/
 
-set cursorline
-highlight CursorLine ctermbg=Red cterm=none
 
 " ignore whitespace in vimdiff
 set diffopt+=iwhite
 
 let mapleader = ","
 
-" statusline settings
-set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
-" always show statusline
-set laststatus=2
+" ease window navigation
+map <C-h> <C-w>h
+map <C-l> <C-w>l
+
+" plugin settings
+let g:netrw_ftp_cmd="ftp -p"
