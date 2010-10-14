@@ -71,7 +71,13 @@ map <C-l> <C-w>l
 map ö :
 map Ö :
 
+map <F10> :NERDTreeToggle<CR>
+map <F11> :NERDTree /var/www/hanro<CR>
+map <F12> :NERDTree /home/elmar/<CR>
+
 " ******************
 
 " plugin settings
 let g:netrw_ftp_cmd="ftp -p"
+
+let g:NERDTreeWinSize=45
