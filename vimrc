@@ -50,11 +50,13 @@ set tabstop=4
 set hls
 set ruler
 
-"set number
-set relativenumber
+set number
+if version >= 730
+		set relativenumber
 
-set undofile
-set undodir=~/.vim/undodir/
+		set undofile
+		set undodir=~/.vim/undodir/
+endif
 
 
 " ignore whitespace in vimdiff
