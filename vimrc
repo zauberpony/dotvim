@@ -60,11 +60,18 @@ set undodir=~/.vim/undodir/
 " ignore whitespace in vimdiff
 set diffopt+=iwhite
 
+" **** mappings ****
+
 let mapleader = ","
 
 " ease window navigation
 map <C-h> <C-w>h
 map <C-l> <C-w>l
+
+map ö :
+map Ö :
+
+" ******************
 
 " plugin settings
 let g:netrw_ftp_cmd="ftp -p"
