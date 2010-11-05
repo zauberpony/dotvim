@@ -50,6 +50,8 @@ set tabstop=4
 set hls
 set ruler
 
+set smartindent
+
 if version >= 703
 		set relativenumber
 
