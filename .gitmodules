@@ -16,9 +16,6 @@
 [submodule "bundle/twitvim"]
 	path = bundle/twitvim
 	url = http://github.com/vim-scripts/TwitVim.git
-[submodule "bundle/autoclose"]
-	path = bundle/autoclose
-	url = http://github.com/Townk/vim-autoclose.git
 [submodule "bundle/searchcomplete"]
 	path = bundle/searchcomplete
 	url = http://github.com/vim-scripts/SearchComplete.git
