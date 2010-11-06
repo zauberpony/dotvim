@@ -25,3 +25,6 @@
 [submodule "bundle/pydiction"]
 	path = bundle/pydiction
 	url = git://github.com/vim-scripts/Pydiction.git
+[submodule "bundle/django"]
+	path = bundle/django
+	url = git://github.com/vim-scripts/django.vim.git
