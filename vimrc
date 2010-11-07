@@ -86,3 +86,6 @@ map <F12> :NERDTree /home/elmar/<CR>
 let g:netrw_ftp_cmd="ftp -p"
 
 let g:NERDTreeWinSize=45
+" set the pydiction_location to prevent errors when not editing python files
+" and pressing tab
+let g:pydiction_location=""
