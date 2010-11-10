@@ -61,6 +61,9 @@ else
 		set number
 endif
 
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
+
 
 " ignore whitespace in vimdiff
 set diffopt+=iwhite
