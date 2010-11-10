@@ -77,8 +77,6 @@ map ö :
 map Ö :
 
 map <F10> :NERDTreeToggle<CR>
-map <F11> :NERDTree /var/www/hanro<CR>
-map <F12> :NERDTree /home/elmar/<CR>
 
 " ******************
 
