@@ -28,3 +28,6 @@
 [submodule "bundle/django"]
 	path = bundle/django
 	url = git://github.com/vim-scripts/django.vim.git
+[submodule "bundle/xmledit"]
+	path = bundle/xmledit
+	url = git://github.com/sukima/xmledit.git
