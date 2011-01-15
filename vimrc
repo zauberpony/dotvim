@@ -61,6 +61,9 @@ else
 		set number
 endif
 
+"set list
+"set listchars=tab:>.,trail:.,extends:#,nbsp:.
+
 
 " ignore whitespace in vimdiff
 set diffopt+=iwhite
@@ -76,9 +79,9 @@ map <C-l> <C-w>l
 map ö :
 map Ö :
 
+set pastetoggle=<F12>
+
 map <F10> :NERDTreeToggle<CR>
-map <F11> :NERDTree /var/www/hanro<CR>
-map <F12> :NERDTree /home/elmar/<CR>
 
 " ******************
 
@@ -86,6 +89,7 @@ map <F12> :NERDTree /home/elmar/<CR>
 let g:netrw_ftp_cmd="ftp -p"
 
 let g:NERDTreeWinSize=45
+let g:NERDTreeShowBookmarks=1
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
 let g:pydiction_location=""
