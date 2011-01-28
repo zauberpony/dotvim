@@ -1,5 +1,5 @@
 setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
-map <F5> :w<CR>:!python "%"<CR>
+map <F5> :w<CR>:!"%"<CR>
 
 set tabstop=4
 set shiftwidth=4
