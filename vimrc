@@ -1,6 +1,18 @@
-" pathogen
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+" vundle
+set rtp+=~/.vim/vundle.git/ 
+call vundle#rc()
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'tpope/vim-surround'
+Bundle 'TwitVim'
+Bundle 'SearchComplete'
+Bundle 'tpope/vim-pastie'
+Bundle 'Pydiction'
+Bundle 'django'
+Bundle 'sukima/xmledit'
+Bundle 'Lokaltog/vim-easymotion'
 
 set nocompatible
 
