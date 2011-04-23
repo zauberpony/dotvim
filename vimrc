@@ -10,7 +10,6 @@ Bundle 'TwitVim'
 Bundle 'SearchComplete'
 Bundle 'tpope/vim-pastie'
 Bundle 'Pydiction'
-Bundle 'django'
 Bundle 'sukima/xmledit'
 Bundle 'Lokaltog/vim-easymotion'
 
