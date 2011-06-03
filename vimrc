@@ -12,6 +12,7 @@ Bundle 'SearchComplete'
 Bundle 'Pydiction'
 Bundle 'sukima/xmledit'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'int3/vim-extradite'
 
 set nocompatible
 
