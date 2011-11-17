@@ -14,6 +14,7 @@ Bundle 'sukima/xmledit'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'int3/vim-extradite'
 Bundle 'rkitover/vimpager'
+Bundle 'jnwhiteh/vim-golang'
 
 set nocompatible
 
