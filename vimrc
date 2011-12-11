@@ -1,4 +1,9 @@
 " vundle
+
+" set filetype off when sourcing vundle packages, so package ftdetect kicks in
+filetype off
+
+
 set rtp+=~/.vim/vundle.git/ 
 call vundle#rc()
 
