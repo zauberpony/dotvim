@@ -15,6 +15,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'int3/vim-extradite'
 Bundle 'rkitover/vimpager'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'vim-coffee-script'
 
 set nocompatible
 
