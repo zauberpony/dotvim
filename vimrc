@@ -9,9 +9,8 @@ call vundle#rc()
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-surround'
-Bundle 'TwitVim'
+" Bundle 'TwitVim'
 Bundle 'SearchComplete'
 " Bundle 'tpope/vim-pastie'
 Bundle 'Pydiction'
@@ -21,6 +20,9 @@ Bundle 'int3/vim-extradite'
 Bundle 'rkitover/vimpager'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'vim-coffee-script'
+Bundle 'Syntastic'
+Bundle 'tpope/vim-commentary'
+Bundle 'tsaleh/vim-matchit'
 
 set nocompatible
 
