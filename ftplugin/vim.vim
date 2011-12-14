@@ -1,1 +1,1 @@
-map <F5> :w<CR>:source $MYVIMRC<CR>
+map <F5> :w<CR>:source $MYVIMRC<CR> :BundleInstall<CR>
