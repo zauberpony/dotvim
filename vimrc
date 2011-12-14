@@ -64,7 +64,8 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'vim-coffee-script'
 Bundle 'itspriddle/vim-jquery'
-Bundle 'xmledit'
+" html/tag helper
+Bundle 'ragtag.vim'
 " Bundle 'Pydiction'
 Bundle 'pangloss/vim-javascript'
 
@@ -215,3 +216,6 @@ let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 if has('conceal')
 		set conceallevel=2 concealcursor=i
 endif
+
+
+let g:ragtag_global_maps = 1 
