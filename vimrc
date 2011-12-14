@@ -1,30 +1,31 @@
 " vundle
-
 " set filetype off when sourcing vundle packages, so package ftdetect kicks in
+set nocompatible
 filetype off
-
 
 set rtp+=~/.vim/vundle.git/ 
 call vundle#rc()
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
+Bundle 'gmarik/vundle'
+Bundle 'The-NERD-tree'
+Bundle 'fugitive.vim'
+Bundle 'surround.vim'
 " Bundle 'TwitVim'
 Bundle 'SearchComplete'
 " Bundle 'tpope/vim-pastie'
-Bundle 'Pydiction'
-Bundle 'sukima/xmledit'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'int3/vim-extradite'
-Bundle 'rkitover/vimpager'
+" Bundle 'Pydiction'
+Bundle 'xmledit'
+Bundle 'EasyMotion'
+Bundle 'extradite.vim'
+Bundle 'vimpager'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'vim-coffee-script'
 Bundle 'Syntastic'
-Bundle 'tpope/vim-commentary'
-Bundle 'tsaleh/vim-matchit'
+Bundle 'commentary.vim'
+Bundle 'matchit.zip'
+Bundle 'python_match.vim'
+Bundle 'IndexedSearch'
 
-set nocompatible
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
