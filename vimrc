@@ -25,7 +25,7 @@ Bundle 'commentary.vim'
 Bundle 'matchit.zip'
 Bundle 'python_match.vim'
 Bundle 'IndexedSearch'
-
+Bundle 'xolox/vim-session'
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -98,6 +98,10 @@ let mapleader = ","
 " ease window navigation
 map <C-h> <C-w>h
 map <C-l> <C-w>l
+map <C-Down> <C-w>j
+map <C-Up> <C-w>k
+map <C-Left> <C-w>h
+map <C-Right> <C-w>l
 
 map ö :
 map Ö :
@@ -113,6 +117,13 @@ let g:netrw_ftp_cmd="ftp -p"
 
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
+let NERDTreeIgnore = ['\~$', '\.pyc']
+
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
 let g:pydiction_location=""
+
+
+" no session autosaving for terminal vim
+let g:session_autosave = 0
+let g:session_autoload = 0
