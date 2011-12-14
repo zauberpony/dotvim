@@ -7,25 +7,65 @@ set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+
+" ***** interface *****
 Bundle 'The-NERD-tree'
-Bundle 'fugitive.vim'
-Bundle 'surround.vim'
+" session manager, restore windows
+Bundle 'xolox/vim-session' 
+" toggle between one and multi window with <C-w>o
+Bundle 'ZoomWin' 
 " Bundle 'TwitVim'
-Bundle 'SearchComplete'
-" Bundle 'tpope/vim-pastie'
-" Bundle 'Pydiction'
-Bundle 'xmledit'
+" use vim as pager
+Bundle 'vimpager' 
+
+
+" git integration
+Bundle 'fugitive.vim' 
+" addon for fugitive, browse file history
+Bundle 'extradite.vim' 
+
+
+
+" show the matching bracket in the statusbar if not in the same line
+Bundle 'matchparenpp'
+" highlight the matichng html tag
+Bundle 'MatchTag'
+
+
+
+" tab completion for searchterms when searching with /
+Bundle 'SearchComplete' 
+" show number of matched items when searching
+Bundle 'IndexedSearch' 
+
+
+" ***** motion *****
 Bundle 'EasyMotion'
-Bundle 'extradite.vim'
-Bundle 'vimpager'
+" extended jumping with %
+Bundle 'matchit.zip' 
+"same for python
+Bundle 'python_match.vim' 
+
+
+" ***** edit helper *****
+"autocompletion for quotes, parens, brackets, etc
+Bundle 'Raimondi/delimitMate'
+" syntax checker
+Bundle 'Syntastic' 
+" toggle linecomment with \\\
+Bundle 'commentary.vim' 
+Bundle 'surround.vim'
+" enable repeat key for plugins
+Bundle 'tpope/vim-repeat'
+
+
+" ***** language supoort *****
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'vim-coffee-script'
-Bundle 'Syntastic'
-Bundle 'commentary.vim'
-Bundle 'matchit.zip'
-Bundle 'python_match.vim'
-Bundle 'IndexedSearch'
-Bundle 'xolox/vim-session'
+Bundle 'itspriddle/vim-jquery'
+Bundle 'xmledit'
+" Bundle 'Pydiction'
+
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
