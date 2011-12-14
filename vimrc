@@ -10,6 +10,8 @@ Bundle 'gmarik/vundle'
 
 " ***** interface *****
 Bundle 'The-NERD-tree'
+" most recently used files, <F9>
+Bundle 'mru.vim'
 " session manager, restore windows
 Bundle 'xolox/vim-session' 
 " toggle between one and multi window with <C-w>o
@@ -65,6 +67,7 @@ Bundle 'vim-coffee-script'
 Bundle 'itspriddle/vim-jquery'
 Bundle 'xmledit'
 " Bundle 'Pydiction'
+Bundle 'pangloss/vim-javascript'
 
 
 " Uncomment the following to have Vim jump to the last position when
@@ -149,6 +152,7 @@ map Ö :
 set pastetoggle=<F12>
 
 map <F10> :NERDTreeToggle<CR>
+map <F9> :MRU<CR>
 
 " ******************
 
@@ -162,7 +166,6 @@ let NERDTreeIgnore = ['\~$', '\.pyc']
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
 let g:pydiction_location=""
-
 
 " no session autosaving for terminal vim
 let g:session_autosave = 0
