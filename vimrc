@@ -113,6 +113,11 @@ set ruler
 
 set smartindent
 
+set wildmenu
+
+set scrolloff=3
+
+
 if version >= 703
 		set relativenumber
 
@@ -127,7 +132,7 @@ set diffopt+=iwhite
 
 " **** mappings ****
 
-let mapleader = ","
+let mapleader = "<SPACE>"
 
 " ease window navigation
 map <C-h> <C-w>h
