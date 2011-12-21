@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 
 " ***** interface *****
 Bundle 'The-NERD-tree'
+Bundle 'jistr/vim-nerdtree-tabs'
 " most recently used files, <F9>
 Bundle 'mru.vim'
 " session manager, restore windows
@@ -132,7 +133,8 @@ set diffopt+=iwhite
 
 " **** mappings ****
 
-let mapleader = "<SPACE>"
+nnoremap <Space> <Nop>
+let mapleader = " "
 
 " ease window navigation
 map <C-h> <C-w>h
@@ -147,7 +149,7 @@ map Ö :
 
 set pastetoggle=<F12>
 
-map <F10> :NERDTreeToggle<CR>
+map <F10> :NERDTreeTabsToggle<CR>
 map <F9> :MRU<CR>
 
 " ******************
