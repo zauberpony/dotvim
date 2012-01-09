@@ -41,9 +41,7 @@ Bundle 'travisjeffery/IndexedSearch'
 
 " ***** motion *****
 Bundle 'EasyMotion'
-" extended jumping with %
-Bundle 'matchit.zip' 
-"same for python
+" match % for python
 Bundle 'python_match.vim' 
 
 
@@ -65,6 +63,7 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'vim-coffee-script'
 Bundle 'itspriddle/vim-jquery'
+Bundle 'derekwyatt/vim-scala.git'
 " html/tag helper
 Bundle 'ragtag.vim'
 " Bundle 'Pydiction'
@@ -103,7 +102,7 @@ set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 "set autowrite		" Automatically save before commands like :next and :make
-"set hidden         " Hide buffers when they are abandoned
+set hidden         " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes) in terminals
 
 set backspace=eol,start
@@ -115,6 +114,8 @@ set ruler
 set smartindent
 
 set wildmenu
+
+set history=9999
 
 set scrolloff=3
 
@@ -128,13 +129,20 @@ else
 		set number
 endif
 
-" ignore whitespace in vimdiff
-set diffopt+=iwhite
-
-" **** mappings ****
-
 nnoremap <Space> <Nop>
 let mapleader = " "
+
+
+" By default whitespace will be hidden, but now it can be toggled with ,s.
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>s :set nolist!<CR>
+
+"uswitch among e.g. if/elsif/else/end, between opening and closing XML tags, and more
+runtime macros/matchit.vim
+
+
+" ignore whitespace in vimdiff
+set diffopt+=iwhite
 
 " ease window navigation
 map <C-h> <C-w>h
