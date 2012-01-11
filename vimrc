@@ -21,6 +21,7 @@ Bundle 'ZoomWin'
 " use vim as pager
 Bundle 'vimpager' 
 
+Bundle 'ervandew/screen'
 
 " git integration
 Bundle 'fugitive.vim' 
@@ -168,6 +169,9 @@ let g:netrw_ftp_cmd="ftp -p"
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
 let NERDTreeIgnore = ['\~$', '\.pyc']
+
+" use tmux in vim screen
+let g:ScreenImpl = 'Tmux'
 
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
