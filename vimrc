@@ -168,7 +168,7 @@ let g:netrw_ftp_cmd="ftp -p"
 
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
-let NERDTreeIgnore = ['\~$', '\.pyc']
+let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
 
 " use tmux in vim screen
 let g:ScreenImpl = 'Tmux'
