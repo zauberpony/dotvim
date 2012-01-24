@@ -70,6 +70,8 @@ Bundle 'ragtag.vim'
 " Bundle 'Pydiction'
 Bundle 'pangloss/vim-javascript'
 
+Bundle 'bash-support.vim'
+
 
 " jump to the last position when reopening a file
 if has("autocmd")
