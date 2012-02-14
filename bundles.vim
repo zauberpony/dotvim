@@ -51,6 +51,8 @@ Bundle 'tpope/vim-repeat'
 " auto-completion
 Bundle 'Shougo/neocomplcache'
 
+Bundle 'sudo.vim'
+
 
 " ***** language supoort *****
 Bundle 'jnwhiteh/vim-golang'
@@ -63,3 +65,5 @@ Bundle 'ragtag.vim'
 Bundle 'pangloss/vim-javascript'
 
 Bundle 'bash-support.vim'
+
+Bundle 'nagios-syntax'
