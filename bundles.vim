@@ -53,6 +53,8 @@ Bundle 'Shougo/neocomplcache'
 
 Bundle 'sudo.vim'
 
+Bundle 'UpdateDNSSerial'
+
 
 " ***** language supoort *****
 Bundle 'jnwhiteh/vim-golang'
