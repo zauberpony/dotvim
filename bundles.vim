@@ -13,6 +13,8 @@ Bundle 'ZoomWin'
 " use vim as pager
 Bundle 'vimpager' 
 
+Bundle 'obviously-insert'
+
 Bundle 'ervandew/screen'
 
 " git integration
