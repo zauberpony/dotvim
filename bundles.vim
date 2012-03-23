@@ -57,11 +57,18 @@ Bundle 'sudo.vim'
 
 Bundle 'UpdateDNSSerial'
 
+Bundle 'msanders/snipmate.vim'
+
 
 " ***** language supoort *****
 Bundle 'jnwhiteh/vim-golang'
+
 Bundle 'vim-coffee-script'
+Bundle 'coffee-check.vim'
+
 Bundle 'itspriddle/vim-jquery'
+Bundle 'hallettj/jslint.vim'
+
 Bundle 'derekwyatt/vim-scala.git'
 " html/tag helper
 Bundle 'ragtag.vim'
@@ -71,3 +78,5 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'bash-support.vim'
 
 Bundle 'nagios-syntax'
+
+Bundle 'git@github.com:zauberpony/less.git'
