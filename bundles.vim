@@ -13,7 +13,7 @@ Bundle 'ZoomWin'
 " use vim as pager
 Bundle 'vimpager' 
 
-Bundle 'obviously-insert'
+"Bundle 'obviously-insert'
 
 Bundle 'ervandew/screen'
 
@@ -32,6 +32,8 @@ Bundle 'MatchTag'
 Bundle 'SearchComplete' 
 " show number of matched items when searching
 Bundle 'travisjeffery/IndexedSearch' 
+
+Bundle 'altercation/vim-colors-solarized'
 
 
 " ***** motion *****

@@ -21,12 +21,13 @@ endif
 
 
 " **** visual settings ****
+colorscheme solarized
 syntax on
 set background=dark
 
 " show the current line as red bar
 set cursorline
-highlight CursorLine ctermbg=Red cterm=none
+set cursorcolumn
 
 " statusline appereance
 set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
