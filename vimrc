@@ -21,13 +21,15 @@ endif
 
 
 " **** visual settings ****
-colorscheme solarized
+colorscheme wombat256mod
 syntax on
 set background=dark
 
 " show the current line as red bar
 set cursorline
 set cursorcolumn
+highlight CursorLine ctermbg=235 cterm=None
+highlight CursorColumn ctermbg=235
 
 " statusline appereance
 set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}

@@ -13,8 +13,6 @@ Bundle 'ZoomWin'
 " use vim as pager
 Bundle 'vimpager' 
 
-"Bundle 'obviously-insert'
-
 Bundle 'ervandew/screen'
 
 " git integration
@@ -34,7 +32,7 @@ Bundle 'SearchComplete'
 Bundle 'travisjeffery/IndexedSearch' 
 
 Bundle 'altercation/vim-colors-solarized'
-
+Bundle 'wombat256.vim'
 
 " ***** motion *****
 Bundle 'EasyMotion'
