@@ -120,3 +120,8 @@ let g:session_autoload = 0
 let g:ragtag_global_maps = 1 
 
 source ~/.vim/neocompl.vim
+
+" ctrlp
+let g:ctrlp_working_path_mode = 2
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_mruf_exclude='.*\.swp$'

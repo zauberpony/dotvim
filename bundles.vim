@@ -13,6 +13,8 @@ Bundle 'ZoomWin'
 " use vim as pager
 Bundle 'vimpager' 
 
+Bundle 'kien/ctrlp.vim'
+
 Bundle 'ervandew/screen'
 
 " git integration
@@ -60,7 +62,7 @@ Bundle 'UpdateDNSSerial'
 Bundle 'msanders/snipmate.vim'
 
 
-" ***** language supoort *****
+" ***** language support *****
 Bundle 'jnwhiteh/vim-golang'
 
 Bundle 'vim-coffee-script'
