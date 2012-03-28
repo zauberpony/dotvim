@@ -19,6 +19,10 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+if ($TERM == 'screen-256')
+		set ttyfast
+endif
+
 
 " **** visual settings ****
 colorscheme wombat256mod
