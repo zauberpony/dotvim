@@ -9,23 +9,23 @@ Bundle 'mru.vim'
 Bundle 'xolox/vim-session' 
 " toggle between one and multi window with <C-w>o
 Bundle 'ZoomWin' 
-" Bundle 'TwitVim'
+
+Bundle 'TwitVim'
+
 " use vim as pager
 Bundle 'vimpager' 
 
+" easily open files, press <C-p>
 Bundle 'kien/ctrlp.vim'
-
-Bundle 'ervandew/screen'
 
 " git integration
 Bundle 'fugitive.vim' 
 " addon for fugitive, browse file history
-Bundle 'extradite.vim' 
-
+Bundle 'int3/vim-extradite' 
 
 " show the matching bracket in the statusbar if not in the same line
 Bundle 'matchparenpp'
-" highlight the matichng html tag
+" highlight the matching html tag
 Bundle 'MatchTag'
 
 " tab completion for searchterms when searching with /
@@ -33,6 +33,7 @@ Bundle 'SearchComplete'
 " show number of matched items when searching
 Bundle 'travisjeffery/IndexedSearch' 
 
+" ***** themes *****
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'wombat256.vim'
 
@@ -57,6 +58,7 @@ Bundle 'Shougo/neocomplcache'
 
 Bundle 'sudo.vim'
 
+" automatically update the serial number in Bind DNS zone files
 Bundle 'UpdateDNSSerial'
 
 Bundle 'msanders/snipmate.vim'

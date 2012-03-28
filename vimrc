@@ -28,8 +28,11 @@ set background=dark
 " show the current line as red bar
 set cursorline
 set cursorcolumn
-highlight CursorLine ctermbg=235 cterm=None
-highlight CursorColumn ctermbg=235
+hi CursorLine ctermbg=235 cterm=None
+hi CursorColumn ctermbg=235
+
+" I want a transparent background
+hi Normal ctermbg=none 
 
 " statusline appereance
 set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
@@ -104,9 +107,6 @@ let g:netrw_ftp_cmd="ftp -p"
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
 let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
-
-" use tmux in vim screen
-let g:ScreenImpl = 'Tmux'
 
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
