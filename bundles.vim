@@ -76,6 +76,8 @@ Bundle 'hallettj/jslint.vim'
 Bundle 'derekwyatt/vim-scala.git'
 " html/tag helper
 Bundle 'ragtag.vim'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+
 " Bundle 'Pydiction'
 Bundle 'pangloss/vim-javascript'
 
