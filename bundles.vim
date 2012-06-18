@@ -58,6 +58,8 @@ Bundle 'Shougo/neocomplcache'
 
 Bundle 'sudo.vim'
 
+Bundle 'godlygeek/tabular'
+
 " automatically update the serial number in Bind DNS zone files
 Bundle 'UpdateDNSSerial'
 
