@@ -65,6 +65,8 @@ Bundle 'godlygeek/tabular'
 " live-templates etc (?)
 Bundle 'msanders/snipmate.vim'
 
+" Atomic-Save, to work in conjunction with e.g. inotifywait
+Bundle "Atomic-Save"
 
 " ***** language/file support *****
 " automatically update the serial number in Bind DNS zone files
