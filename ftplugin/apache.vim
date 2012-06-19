@@ -1,2 +1,2 @@
 map <F5> :w<CR>:!service apache2 restart<CR>
-set commentstring=#\ %s
+setlocal commentstring=#\ %s

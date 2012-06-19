@@ -58,6 +58,8 @@ Bundle 'Shougo/neocomplcache'
 
 Bundle 'sudo.vim'
 
+Bundle 'godlygeek/tabular'
+
 " automatically update the serial number in Bind DNS zone files
 Bundle 'UpdateDNSSerial'
 
@@ -74,6 +76,9 @@ Bundle 'itspriddle/vim-jquery'
 Bundle 'hallettj/jslint.vim'
 
 Bundle 'derekwyatt/vim-scala.git'
+
+Bundle 'VimClojure'
+
 " html/tag helper
 Bundle 'ragtag.vim'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}

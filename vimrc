@@ -54,6 +54,10 @@ set hidden         " Hide buffers when they are abandoned
 
 set backspace=eol,start
 set tabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+set softtabstop=4
 
 set hls
 set ruler
