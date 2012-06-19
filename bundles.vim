@@ -68,6 +68,8 @@ Bundle 'msanders/snipmate.vim'
 " Atomic-Save, to work in conjunction with e.g. inotifywait
 Bundle "Atomic-Save"
 
+Bundle 'tacahiroy/vim-besfriend'
+
 " ***** language/file support *****
 " automatically update the serial number in Bind DNS zone files
 Bundle 'UpdateDNSSerial'
