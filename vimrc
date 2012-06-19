@@ -136,3 +136,7 @@ source ~/.vim/neocompl.vim
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_mruf_exclude='.*\.swp$'
+let g:ctrlp_prompt_mappings = {
+  \ 'AcceptSelection("e")': [],
+  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+  \ }
