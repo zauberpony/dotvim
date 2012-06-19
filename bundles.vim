@@ -71,6 +71,9 @@ Bundle "Atomic-Save"
 Bundle 'tacahiroy/vim-besfriend'
 
 " ***** language/file support *****
+
+Bundle 'taglist.vim'
+
 " automatically update the serial number in Bind DNS zone files
 Bundle 'UpdateDNSSerial'
 
