@@ -127,9 +127,6 @@ let g:pydiction_location=""
 let g:session_autosave = 0
 let g:session_autoload = 0
 
-" enable ragtag
-let g:ragtag_global_maps = 1 
-
 source ~/.vim/neocompl.vim
 
 " ctrlp

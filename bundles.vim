@@ -80,7 +80,6 @@ Bundle 'derekwyatt/vim-scala.git'
 Bundle 'VimClojure'
 
 " html/tag helper
-Bundle 'ragtag.vim'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " Bundle 'Pydiction'
