@@ -102,6 +102,7 @@ set pastetoggle=<F12>
 
 map <F10> :NERDTreeTabsToggle<CR>
 map <F9> :MRU<CR>
+map <F8> :NERDTreeFind<CR>
 
 " ******************
 
@@ -111,6 +112,8 @@ let g:netrw_ftp_cmd="ftp -p"
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
 let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
+
+let g:NERDTreeMapActivateNode="<F8>"
 
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
