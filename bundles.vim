@@ -34,7 +34,6 @@ Bundle 'SearchComplete'
 Bundle 'travisjeffery/IndexedSearch' 
 
 " ***** themes *****
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'wombat256.vim'
 
 " ***** motion *****
@@ -48,11 +47,14 @@ Bundle 'python_match.vim'
 Bundle 'Raimondi/delimitMate'
 " syntax checker
 Bundle 'Syntastic' 
+
 " toggle linecomment with \\\
 Bundle 'commentary.vim' 
 Bundle 'surround.vim'
+
 " enable repeat key for plugins
 Bundle 'tpope/vim-repeat'
+
 " auto-completion
 Bundle 'Shougo/neocomplcache'
 
@@ -60,33 +62,40 @@ Bundle 'sudo.vim'
 
 Bundle 'godlygeek/tabular'
 
-" automatically update the serial number in Bind DNS zone files
-Bundle 'UpdateDNSSerial'
-
+" live-templates etc (?)
 Bundle 'msanders/snipmate.vim'
 
 
-" ***** language support *****
+" ***** language/file support *****
+" automatically update the serial number in Bind DNS zone files
+Bundle 'UpdateDNSSerial'
+
+" go
 Bundle 'jnwhiteh/vim-golang'
 
+" coffeescript
 Bundle 'vim-coffee-script'
 Bundle 'coffee-check.vim'
 
+" javascript
 Bundle 'itspriddle/vim-jquery'
 Bundle 'hallettj/jslint.vim'
+Bundle 'pangloss/vim-javascript'
 
+" scala
 Bundle 'derekwyatt/vim-scala.git'
 
+" clojure
 Bundle 'VimClojure'
 
 " html/tag helper
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-" Bundle 'Pydiction'
-Bundle 'pangloss/vim-javascript'
-
+" bashscript
 Bundle 'bash-support.vim'
 
+" nagios/icinga config files
 Bundle 'nagios-syntax'
 
+" lesscss
 Bundle 'git@github.com:zauberpony/less.git'
