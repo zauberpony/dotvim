@@ -70,6 +70,8 @@ Bundle "Atomic-Save"
 
 Bundle 'tacahiroy/vim-besfriend'
 
+" Bundle 'YankRing.vim'
+
 " ***** language/file support *****
 
 Bundle 'taglist.vim'
