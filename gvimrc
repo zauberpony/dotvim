@@ -5,3 +5,6 @@ colorscheme solarized
 
 let g:session_autosave = 1
 let g:session_autoload = 1
+
+" autosave on focus lost
+autocmd FocusLost * :wa
