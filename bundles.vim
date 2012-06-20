@@ -69,7 +69,7 @@ Bundle 'msanders/snipmate.vim'
 " Atomic-Save, to work in conjunction with e.g. inotifywait
 Bundle "Atomic-Save"
 
-Bundle 'tacahiroy/vim-besfriend'
+Bundle 'tacahiroy/vim-bestfriend'
 
 " Bundle 'YankRing.vim'
 
