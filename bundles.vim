@@ -34,6 +34,7 @@ Bundle 'SearchComplete'
 Bundle 'travisjeffery/IndexedSearch' 
 
 " ***** themes *****
+Bundle 'Solarized'
 Bundle 'wombat256.vim'
 
 " ***** motion *****
@@ -107,4 +108,5 @@ Bundle 'bash-support.vim'
 Bundle 'nagios-syntax'
 
 " lesscss
-Bundle 'git@github.com:zauberpony/less.git'
+Bundle 'zauberpony/less.git'
+
