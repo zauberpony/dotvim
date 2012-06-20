@@ -10,6 +10,8 @@ Bundle 'xolox/vim-session'
 " toggle between one and multi window with <C-w>o
 Bundle 'ZoomWin' 
 
+Bundle 'bufexplorer.zip'
+
 Bundle 'TwitVim'
 
 " use vim as pager
