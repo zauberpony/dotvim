@@ -73,6 +73,9 @@ Bundle 'tacahiroy/vim-besfriend'
 
 " Bundle 'YankRing.vim'
 
+" execute a command in a tmux pane
+Bundle 'benmills/vimux'
+
 " ***** language/file support *****
 
 Bundle 'taglist.vim'
