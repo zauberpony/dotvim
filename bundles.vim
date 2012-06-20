@@ -34,7 +34,7 @@ Bundle 'SearchComplete'
 Bundle 'travisjeffery/IndexedSearch' 
 
 " ***** themes *****
-Bundle 'Solarized'
+Bundle 'Lucius'
 Bundle 'wombat256.vim'
 
 " ***** motion *****
