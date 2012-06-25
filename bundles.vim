@@ -10,6 +10,8 @@ Bundle 'xolox/vim-session'
 " toggle between one and multi window with <C-w>o
 Bundle 'ZoomWin' 
 
+Bundle 'bufexplorer.zip'
+
 Bundle 'TwitVim'
 
 " use vim as pager
@@ -34,7 +36,7 @@ Bundle 'SearchComplete'
 Bundle 'travisjeffery/IndexedSearch' 
 
 " ***** themes *****
-Bundle 'Solarized'
+Bundle 'Lucius'
 Bundle 'wombat256.vim'
 
 " ***** motion *****
@@ -69,7 +71,7 @@ Bundle 'msanders/snipmate.vim'
 " Atomic-Save, to work in conjunction with e.g. inotifywait
 Bundle "Atomic-Save"
 
-Bundle 'tacahiroy/vim-besfriend'
+Bundle 'tacahiroy/vim-bestfriend'
 
 " Bundle 'YankRing.vim'
 
