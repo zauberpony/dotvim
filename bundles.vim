@@ -3,15 +3,11 @@ Bundle 'gmarik/vundle'
 " ***** IDE like interface *****
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
-" most recently used files, <F9>
-Bundle 'mru.vim'
+
 " session manager, restore windows
 Bundle 'xolox/vim-session' 
 " toggle between one and multi window with <C-w>o
 Bundle 'ZoomWin' 
-
-" Buffer explorer with F7
-Bundle 'bufexplorer.zip'
 
 " git integration
 Bundle 'fugitive.vim' 
@@ -22,7 +18,8 @@ Bundle 'int3/vim-extradite'
 " use vim as pager
 " Bundle 'vimpager' 
 
-" easily open files, press <C-n>
+" easily open files, press <leader>n for fuzzy finding, F7 for buffers, F9 for
+" mru
 Bundle 'kien/ctrlp.vim'
 
 " show the matching bracket in the statusbar if not in the same line
