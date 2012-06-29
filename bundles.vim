@@ -34,7 +34,7 @@ Bundle 'matchparenpp'
 Bundle 'MatchTag'
 
 " show taglist with <F11>
-Bundle 'taglist.vim'
+Bundle 'Tagbar'
 
 " execute a command in a tmux pane
 Bundle 'benmills/vimux'

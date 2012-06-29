@@ -109,7 +109,7 @@ map <F7> :BufExplorerHorizontalSplit<CR>
 map <F8> :NERDTreeFind<CR>
 map <F9> :MRU<CR>
 map <F10> :NERDTreeTabsToggle<CR>
-map <F11> :TlistToggle<CR>
+map <F11> :TagbarOpen fj<CR>
 
 " ******************
 
@@ -129,7 +129,6 @@ let g:pydiction_location=""
 " no session autosaving for terminal vim
 let g:session_autosave = 0
 let g:session_autoload = 0
-
 
 " atomic saving — no longer enabled by default, enable via modeline etc. (if
 " possible), but this prevents encrypting files with vim
