@@ -113,5 +113,5 @@ Bundle 'bash-support.vim'
 Bundle 'nagios-syntax'
 
 " lesscss
-Bundle 'zauberpony/less.git'
+Bundle 'zauberpony/less-syntax'
 
