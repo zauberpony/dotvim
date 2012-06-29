@@ -105,7 +105,14 @@ Bundle 'bash-support.vim'
 Bundle 'nagios-syntax'
 
 " lesscss
-Bundle 'zauberpony/less-syntax'
+" Bundle 'zauberpony/less-syntax'
+Bundle 'groenewege/vim-less'
+
+"Handlabers templates
+Bundle 'nono/vim-handlebars'
+
+" markdown markup
+Bundle 'hallison/vim-markdown'
 
 
 " ***** fun *******
