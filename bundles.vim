@@ -78,6 +78,9 @@ Bundle 'tacahiroy/vim-bestfriend'
 " execute a command in a tmux pane
 Bundle 'benmills/vimux'
 
+" numbers.vim switches between relative and absolute line numbers
+Bundle "myusuf3/numbers.vim"
+
 " ***** language/file support *****
 
 Bundle 'taglist.vim'

@@ -72,12 +72,12 @@ set history=9999
 set scrolloff=3
 
 if version >= 703
-		set relativenumber
 		set undofile
 		set undodir=~/.vim/undodir/
-else
-		set number
 endif
+
+" relativenumber is toggled when entering insert mode by numbers.vim
+set number
 
 nnoremap <Space> <Nop>
 let mapleader = " "
