@@ -71,7 +71,7 @@ Bundle "Atomic-Save"
 
 Bundle 'tacahiroy/vim-bestfriend'
 
-" Bundle 'YankRing.vim'
+Bundle 'YankRing.vim'
 
 " execute a command in a tmux pane
 Bundle 'benmills/vimux'
