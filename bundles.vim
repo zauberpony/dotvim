@@ -70,6 +70,8 @@ Bundle "Atomic-Save"
 " history for registers
 Bundle 'YankRing.vim'
 
+Bundle 'tpope/vim-speeddating'
+
 " ***** language/file support *****
 
 " automatically update the serial number in Bind DNS zone files
