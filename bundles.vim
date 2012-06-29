@@ -25,9 +25,6 @@ Bundle 'int3/vim-extradite'
 " easily open files, press <C-n>
 Bundle 'kien/ctrlp.vim'
 
-" show number of matched items when searching
-Bundle 'travisjeffery/IndexedSearch' 
-
 " show the matching bracket in the statusbar if not in the same line
 Bundle 'matchparenpp'
 " highlight the matching html tag
