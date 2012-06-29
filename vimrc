@@ -130,8 +130,10 @@ let g:pydiction_location=""
 let g:session_autosave = 0
 let g:session_autoload = 0
 
-" atomic saving
-autocmd BufWriteCmd * call AtomicSave() 
+
+" atomic saving — no longer enabled by default, enable via modeline etc. (if
+" possible), but this prevents encrypting files with vim
+" autocmd BufWriteCmd * call AtomicSave() 
 
 source ~/.vim/neocompl.vim
 
