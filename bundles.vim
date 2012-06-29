@@ -1,7 +1,7 @@
 Bundle 'gmarik/vundle'
 
-" ***** interface *****
-Bundle 'The-NERD-tree'
+" ***** IDE like interface *****
+Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 " most recently used files, <F9>
 Bundle 'mru.vim'
@@ -10,43 +10,50 @@ Bundle 'xolox/vim-session'
 " toggle between one and multi window with <C-w>o
 Bundle 'ZoomWin' 
 
+" Buffer explorer with F7
 Bundle 'bufexplorer.zip'
-
-Bundle 'TwitVim'
-
-" use vim as pager
-Bundle 'vimpager' 
-
-" easily open files, press <C-p>
-Bundle 'kien/ctrlp.vim'
 
 " git integration
 Bundle 'fugitive.vim' 
-" addon for fugitive, browse file history
+
+" addon for fugitive, browse file history with :Extradite
 Bundle 'int3/vim-extradite' 
+
+" use vim as pager
+" Bundle 'vimpager' 
+
+" easily open files, press <C-n>
+Bundle 'kien/ctrlp.vim'
+
+" show number of matched items when searching
+Bundle 'travisjeffery/IndexedSearch' 
 
 " show the matching bracket in the statusbar if not in the same line
 Bundle 'matchparenpp'
 " highlight the matching html tag
 Bundle 'MatchTag'
 
-" show number of matched items when searching
-Bundle 'travisjeffery/IndexedSearch' 
+" show taglist with <F11>
+Bundle 'taglist.vim'
+
+" execute a command in a tmux pane
+Bundle 'benmills/vimux'
 
 " ***** themes *****
 Bundle 'Lucius'
 Bundle 'wombat256.vim'
 
 " ***** motion *****
+" move to words with <leader><leader>w etc.
 Bundle 'EasyMotion'
 " match % for python
 Bundle 'python_match.vim' 
 
-
 " ***** edit helper *****
-"autocompletion for quotes, parens, brackets, etc
+" autoclose quotes, parens, brackets, etc and place cursor between them
 Bundle 'Raimondi/delimitMate'
-" syntax checker
+
+" syntax checker ?
 Bundle 'Syntastic' 
 
 " toggle linecomment with \\\
@@ -59,26 +66,19 @@ Bundle 'tpope/vim-repeat'
 " auto-completion
 Bundle 'Shougo/neocomplcache'
 
-Bundle 'sudo.vim'
-
+" help aligning tables, e.g. :Tabularize /|
 Bundle 'godlygeek/tabular'
 
-" live-templates etc (?)
+" live-templates etc
 Bundle 'msanders/snipmate.vim'
 
 " Atomic-Save, to work in conjunction with e.g. inotifywait
 Bundle "Atomic-Save"
 
-Bundle 'tacahiroy/vim-bestfriend'
-
+" history for registers
 Bundle 'YankRing.vim'
 
-" execute a command in a tmux pane
-Bundle 'benmills/vimux'
-
 " ***** language/file support *****
-
-Bundle 'taglist.vim'
 
 " automatically update the serial number in Bind DNS zone files
 Bundle 'UpdateDNSSerial'
@@ -113,3 +113,11 @@ Bundle 'nagios-syntax'
 " lesscss
 Bundle 'zauberpony/less-syntax'
 
+
+" ***** fun *******
+
+" show the files on which we spent most time editing
+Bundle 'tacahiroy/vim-bestfriend'
+
+" Twitter Client
+Bundle 'TwitVim'

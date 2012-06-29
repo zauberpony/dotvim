@@ -105,11 +105,11 @@ map Ö :
 
 set pastetoggle=<F12>
 
-map <F11> :TlistToggle<CR>
-map <F10> :NERDTreeTabsToggle<CR>
-map <F9> :MRU<CR>
+map <F7> :BufExplorerHorizontalSplit<CR>
 map <F8> :NERDTreeFind<CR>
-
+map <F9> :MRU<CR>
+map <F10> :NERDTreeTabsToggle<CR>
+map <F11> :TlistToggle<CR>
 
 " ******************
 
