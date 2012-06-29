@@ -62,12 +62,10 @@ Bundle 'tpope/vim-repeat'
 
 " auto-completion
 Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplcache-snippets-complete'
 
 " help aligning tables, e.g. :Tabularize /|
 Bundle 'godlygeek/tabular'
-
-" live-templates etc
-Bundle 'msanders/snipmate.vim'
 
 " Atomic-Save, to work in conjunction with e.g. inotifywait
 Bundle "Atomic-Save"
