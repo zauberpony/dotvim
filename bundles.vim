@@ -30,8 +30,6 @@ Bundle 'matchparenpp'
 " highlight the matching html tag
 Bundle 'MatchTag'
 
-" tab completion for searchterms when searching with /
-Bundle 'SearchComplete' 
 " show number of matched items when searching
 Bundle 'travisjeffery/IndexedSearch' 
 
