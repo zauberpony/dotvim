@@ -145,3 +145,5 @@ let g:ctrlp_prompt_mappings = {
   \ }
 
 let g:ctrlp_map = '<leader>n'
+
+map <leader>t :Tabularize /\|<cr>:sort u<CR>
