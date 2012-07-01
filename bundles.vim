@@ -37,6 +37,8 @@ Bundle 'benmills/vimux'
 Bundle 'Lucius'
 Bundle 'wombat256.vim'
 
+Bundle 'Lokaltog/vim-powerline'
+
 " ***** motion *****
 " move to words with <leader><leader>w etc.
 Bundle 'EasyMotion'
