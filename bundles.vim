@@ -50,8 +50,9 @@ Bundle 'Raimondi/delimitMate'
 " syntax checker ?
 Bundle 'Syntastic' 
 
-" toggle linecomment with \\\
-Bundle 'commentary.vim' 
+" toggle linecomment with <leader>ci
+Bundle 'scrooloose/nerdcommenter'
+
 Bundle 'surround.vim'
 
 " enable repeat key for plugins
