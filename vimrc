@@ -116,6 +116,7 @@ map <F11> :TagbarOpen fj<CR>
 " plugin settings
 let g:netrw_ftp_cmd="ftp -p"
 
+let NERDTreeChDirMode=2 " set root dir cds into it as wd
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
 let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
