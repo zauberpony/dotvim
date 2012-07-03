@@ -105,17 +105,18 @@ map Ö :
 
 set pastetoggle=<F12>
 
-map <F11> :TlistToggle<CR>
-map <F10> :NERDTreeTabsToggle<CR>
-map <F9> :MRU<CR>
+map <F7> :CtrlPBuffer<CR>
 map <F8> :NERDTreeFind<CR>
-
+map <F9> :CtrlPMRUFiles<CR>
+map <F10> :NERDTreeTabsToggle<CR>
+map <F11> :TagbarOpen fj<CR>
 
 " ******************
 
 " plugin settings
 let g:netrw_ftp_cmd="ftp -p"
 
+let NERDTreeChDirMode=2 " set root dir cds into it as wd
 let g:NERDTreeWinSize=45
 let g:NERDTreeShowBookmarks=1
 let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
@@ -130,7 +131,6 @@ let g:pydiction_location=""
 let g:session_autosave = 0
 let g:session_autoload = 0
 
-
 " atomic saving — no longer enabled by default, enable via modeline etc. (if
 " possible), but this prevents encrypting files with vim
 " autocmd BufWriteCmd * call AtomicSave() 
@@ -139,12 +139,12 @@ source ~/.vim/neocompl.vim
 
 " ctrlp
 let g:ctrlp_working_path_mode = 2
-let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_mruf_exclude='.*\.swp$'
 let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': [],
   \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
   \ }
 
-let g:ctrlp_map = '<c-n>'
+let g:ctrlp_map = '<leader>n'
 
+map <leader>t :Tabularize /\|<cr>:sort u<CR>
