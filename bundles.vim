@@ -33,6 +33,9 @@ Bundle 'Tagbar'
 " execute a command in a tmux pane
 Bundle 'benmills/vimux'
 
+" search code
+Bundle 'mileszs/ack.vim'
+
 " ***** themes *****
 Bundle 'Lucius'
 Bundle 'wombat256.vim'
