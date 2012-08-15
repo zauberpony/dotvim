@@ -82,6 +82,9 @@ endif
 nnoremap <Space> <Nop>
 let mapleader = " "
 
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+
 " By default whitespace will be hidden, but now it can be toggled with ,s.
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
