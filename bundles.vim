@@ -23,12 +23,8 @@ Bundle 'int3/vim-extradite'
 Bundle 'kien/ctrlp.vim'
 
 " Navigate through buffers quickly
+" <leader>lj
 Bundle "sjbach/lusty"
-
-" show the matching bracket in the statusbar if not in the same line
-Bundle 'matchparenpp'
-" highlight the matching html tag
-Bundle 'MatchTag'
 
 " show taglist with <F11>
 Bundle 'Tagbar'
@@ -44,6 +40,17 @@ Bundle 'Lucius'
 Bundle 'wombat256.vim'
 
 Bundle 'Lokaltog/vim-powerline'
+
+" ***** visual addons *****
+ 
+" show the matching bracket in the statusbar if not in the same line
+Bundle 'matchparenpp'
+" highlight the matching html tag
+Bundle 'MatchTag'
+
+" visually displaying indent levels in code
+" <leader>ig
+Bundle "nathanaelkane/vim-indent-guides"
 
 " ***** motion *****
 " move to words with <leader><leader>w etc.
