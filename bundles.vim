@@ -22,6 +22,9 @@ Bundle 'int3/vim-extradite'
 " mru
 Bundle 'kien/ctrlp.vim'
 
+" Navigate through buffers quickly
+Bundle "sjbach/lusty"
+
 " show the matching bracket in the statusbar if not in the same line
 Bundle 'matchparenpp'
 " highlight the matching html tag
