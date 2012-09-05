@@ -130,6 +130,9 @@ Bundle 'nono/vim-handlebars'
 " markdown markup
 Bundle 'hallison/vim-markdown'
 
+" rails
+Bundle "tpope/vim-rails"
+
 
 " ***** fun *******
 
