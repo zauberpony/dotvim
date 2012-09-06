@@ -106,13 +106,15 @@ map <C-Right> <C-w>l
 map ö :
 map Ö :
 
-set pastetoggle=<F12>
-
-map <F7> :CtrlPBuffer<CR>
+" show the yank ring
+map <F6> :YRShow<CR>
+" scroll to the current file in the nerdtree
 map <F8> :NERDTreeFind<CR>
+"  search through mru
 map <F9> :CtrlPMRUFiles<CR>
 map <F10> :NERDTreeTabsToggle<CR>
 map <F11> :TagbarOpen fj<CR>
+set pastetoggle=<F12>
 
 " ******************
 
