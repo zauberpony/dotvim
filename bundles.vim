@@ -133,8 +133,11 @@ Bundle 'hallison/vim-markdown'
 " rails
 Bundle "tpope/vim-rails"
 
+" ***** productivity ******
 
-" ***** fun *******
+Bundle "mnick/vim-pomodoro"
+
+" ***** fun ******
 
 " show the files on which we spent most time editing
 Bundle 'tacahiroy/vim-bestfriend'
