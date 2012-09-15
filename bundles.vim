@@ -88,6 +88,9 @@ Bundle 'YankRing.vim'
 
 Bundle 'tpope/vim-speeddating'
 
+" Better 3-way merging
+Bundle "sjl/splice.vim"
+
 " ***** language/file support *****
 
 " automatically update the serial number in Bind DNS zone files
