@@ -135,6 +135,8 @@ Bundle 'hallison/vim-markdown'
 
 " rails
 Bundle "tpope/vim-rails"
+Bundle "sandeepravi/refactor-rails.vim"
+Bundle "MarcWeber/vim-addon-ruby-debug-ide"
 
 " ***** productivity ******
 
