@@ -133,10 +133,11 @@ Bundle 'nono/vim-handlebars'
 " markdown markup
 Bundle 'hallison/vim-markdown'
 
-" rails
+" rails/ruby
 Bundle "tpope/vim-rails"
 Bundle "sandeepravi/refactor-rails.vim"
 Bundle "MarcWeber/vim-addon-ruby-debug-ide"
+Bundle "lucapette/vim-ruby-doc.git"
 
 " ***** productivity ******
 
