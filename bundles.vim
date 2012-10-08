@@ -39,6 +39,8 @@ Bundle 'mileszs/ack.vim'
 Bundle 'Lucius'
 Bundle 'wombat256.vim'
 
+Bundle "altercation/vim-colors-solarized"
+
 Bundle 'Lokaltog/vim-powerline'
 
 " ***** visual addons *****

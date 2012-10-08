@@ -25,9 +25,11 @@ endif
 
 
 " **** visual settings ****
-colorscheme wombat256mod
 syntax on
+
 set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 " show the current line as red bar
 set cursorline
