@@ -75,11 +75,11 @@ set history=9999
 set scrolloff=3
 
 if version >= 703
-		set relativenumber
-		set undofile
-		set undodir=~/.vim/undodir/
+    set relativenumber
+    set undofile
+    set undodir=~/.vim/undodir/
 else
-		set number
+    set number
 endif
 
 nnoremap <Space> <Nop>
