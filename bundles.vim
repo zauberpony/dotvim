@@ -145,12 +145,4 @@ Bundle "lucapette/vim-ruby-doc.git"
 
 Bundle "mnick/vim-pomodoro"
 
-" ***** fun ******
-
-" show the files on which we spent most time editing
-Bundle 'tacahiroy/vim-bestfriend'
-
-" Twitter Client
-Bundle 'TwitVim'
-
 Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
