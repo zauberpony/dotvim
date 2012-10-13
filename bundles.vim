@@ -152,3 +152,5 @@ Bundle 'tacahiroy/vim-bestfriend'
 
 " Twitter Client
 Bundle 'TwitVim'
+
+Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
