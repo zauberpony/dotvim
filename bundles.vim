@@ -77,7 +77,7 @@ Bundle 'tpope/vim-repeat'
 
 " auto-completion
 Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neocomplcache-snippets-complete'
+Bundle 'Shougo/neosnippet'
 
 " help aligning tables, e.g. :Tabularize /|
 Bundle 'godlygeek/tabular'
