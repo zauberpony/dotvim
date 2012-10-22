@@ -68,7 +68,7 @@ set ruler
 set smartindent
 
 set wildmenu
-set wildmode="list:longest,full"
+set wildmode=list:longest,full
 
 set history=9999
 
