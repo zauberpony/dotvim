@@ -74,6 +74,8 @@ set history=9999
 
 set scrolloff=3
 
+set modeline
+
 if version >= 703
     set relativenumber
     set undofile
