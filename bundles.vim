@@ -140,6 +140,9 @@ Bundle "tpope/vim-rails"
 Bundle "sandeepravi/refactor-rails.vim"
 Bundle "MarcWeber/vim-addon-ruby-debug-ide"
 Bundle "lucapette/vim-ruby-doc.git"
+Bundle "ecomba/vim-ruby-refactoring"
+Bundle "tpope/vim-cucumber"
+Bundle "vim-ruby/vim-ruby"
 
 " ***** productivity ******
 
