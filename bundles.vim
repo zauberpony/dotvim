@@ -90,9 +90,6 @@ Bundle 'YankRing.vim'
 
 Bundle 'tpope/vim-speeddating'
 
-" Better 3-way merging
-Bundle "sjl/splice.vim"
-
 " Tools like SudoWrite
 Bundle "tpope/vim-eunuch"
 
