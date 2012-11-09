@@ -111,6 +111,7 @@ map <C-Right> <C-w>l
 map ö :
 map Ö :
 
+map <F5> :silent !xdg-open %<CR>
 " show the yank ring
 map <F6> :YRShow<CR>
 " scroll to the current file in the nerdtree
