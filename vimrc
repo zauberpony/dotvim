@@ -55,9 +55,10 @@ set autowriteall
 set hidden         " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes) in terminals
 
-set backspace=eol,start
+set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
+set shiftround
 set expandtab
 set smarttab
 set softtabstop=4
@@ -101,8 +102,6 @@ runtime macros/matchit.vim
 set diffopt+=iwhite
 
 " ease window navigation
-map <C-h> <C-w>h
-map <C-l> <C-w>l
 map <C-Down> <C-w>j
 map <C-Up> <C-w>k
 map <C-Left> <C-w>h
