@@ -144,6 +144,9 @@ Bundle "ecomba/vim-ruby-refactoring"
 Bundle "tpope/vim-cucumber"
 Bundle "vim-ruby/vim-ruby"
 
+
+Bundle "Jinja"
+
 " ***** productivity ******
 
 Bundle "mnick/vim-pomodoro"
