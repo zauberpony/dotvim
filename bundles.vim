@@ -11,6 +11,7 @@ Bundle 'ZoomWin'
 
 " git integration
 Bundle 'fugitive.vim' 
+Bundle "airblade/vim-gitgutter"
 
 " addon for fugitive, browse file history with :Extradite
 Bundle 'int3/vim-extradite' 
