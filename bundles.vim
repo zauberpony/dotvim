@@ -66,6 +66,9 @@ Bundle 'Raimondi/delimitMate'
 " syntax checker ?
 Bundle 'Syntastic' 
 
+" interactive replace
+Bundle "hwrod/interactive-replace"
+
 " toggle linecomment with <leader>ci
 Bundle 'scrooloose/nerdcommenter'
 
