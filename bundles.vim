@@ -17,9 +17,6 @@ Bundle "airblade/vim-gitgutter"
 " addon for fugitive, browse file history with :Extradite
 Bundle 'int3/vim-extradite' 
 
-" use vim as pager
-" Bundle 'vimpager' 
-
 " easily open files, press <leader>n for fuzzy finding, F7 for buffers, F9 for
 " mru
 Bundle 'kien/ctrlp.vim'
