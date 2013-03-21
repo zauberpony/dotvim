@@ -84,9 +84,6 @@ Bundle 'Shougo/neosnippet'
 " help aligning tables, e.g. :Tabularize /|
 Bundle 'godlygeek/tabular'
 
-" Atomic-Save, to work in conjunction with e.g. inotifywait
-Bundle "Atomic-Save"
-
 " history for registers
 Bundle 'YankRing.vim'
 
