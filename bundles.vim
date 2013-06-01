@@ -5,6 +5,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 " session manager, restore windows
+Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-session' 
 " toggle between one and multi window with <C-w>o
 Bundle 'ZoomWin' 
