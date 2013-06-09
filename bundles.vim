@@ -28,9 +28,6 @@ Bundle "sjbach/lusty"
 " show taglist with <F11>
 Bundle 'Tagbar'
 
-" execute a command in a tmux pane
-Bundle 'benmills/vimux'
-
 " search code
 Bundle 'mileszs/ack.vim'
 
@@ -89,9 +86,6 @@ Bundle 'YankRing.vim'
 
 Bundle 'tpope/vim-speeddating'
 
-" Tools like SudoWrite
-Bundle "tpope/vim-eunuch"
-
 " ***** language/file support *****
 
 " automatically update the serial number in Bind DNS zone files
@@ -105,12 +99,8 @@ Bundle 'vim-coffee-script'
 Bundle 'coffee-check.vim'
 
 " javascript
-Bundle 'itspriddle/vim-jquery'
 Bundle 'hallettj/jslint.vim'
 Bundle 'pangloss/vim-javascript'
-
-" scala
-Bundle 'derekwyatt/vim-scala.git'
 
 " clojure
 Bundle 'VimClojure'
@@ -124,13 +114,6 @@ Bundle 'bash-support.vim'
 " nagios/icinga config files
 Bundle 'nagios-syntax'
 
-" lesscss
-" Bundle 'zauberpony/less-syntax'
-Bundle 'groenewege/vim-less'
-
-"Handlabers templates
-Bundle 'nono/vim-handlebars'
-
 " markdown markup
 Bundle 'hallison/vim-markdown'
 
@@ -142,12 +125,3 @@ Bundle "lucapette/vim-ruby-doc.git"
 Bundle "ecomba/vim-ruby-refactoring"
 Bundle "tpope/vim-cucumber"
 Bundle "vim-ruby/vim-ruby"
-
-
-Bundle "Jinja"
-
-" ***** productivity ******
-
-Bundle "mnick/vim-pomodoro"
-
-Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
