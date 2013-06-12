@@ -125,3 +125,6 @@ Bundle "lucapette/vim-ruby-doc.git"
 Bundle "ecomba/vim-ruby-refactoring"
 Bundle "tpope/vim-cucumber"
 Bundle "vim-ruby/vim-ruby"
+
+" puppet
+Bundle "rodjek/vim-puppet"
