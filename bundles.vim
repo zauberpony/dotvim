@@ -21,10 +21,6 @@ Bundle 'int3/vim-extradite'
 " mru
 Bundle 'kien/ctrlp.vim'
 
-" Navigate through buffers quickly
-" <leader>lj
-Bundle "sjbach/lusty"
-
 " show taglist with <F11>
 Bundle 'Tagbar'
 
