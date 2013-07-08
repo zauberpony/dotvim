@@ -11,7 +11,7 @@ Bundle 'xolox/vim-session'
 Bundle 'ZoomWin' 
 
 " git integration
-Bundle 'fugitive.vim' 
+Bundle 'tpope/vim-fugitive' 
 Bundle "airblade/vim-gitgutter"
 
 " addon for fugitive, browse file history with :Extradite
