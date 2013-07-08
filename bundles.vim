@@ -33,7 +33,7 @@ Bundle 'wombat256.vim'
 
 Bundle "altercation/vim-colors-solarized"
 
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 
 " ***** visual addons *****
  
