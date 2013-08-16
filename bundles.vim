@@ -93,6 +93,7 @@ Bundle 'jnwhiteh/vim-golang'
 " coffeescript
 Bundle 'vim-coffee-script'
 Bundle 'coffee-check.vim'
+Bundle "leafgarland/typescript-vim"
 
 " javascript
 Bundle 'hallettj/jslint.vim'
