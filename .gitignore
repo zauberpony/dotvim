@@ -1,5 +1,5 @@
-.netrwhist
+.vim/.netrwhist
 .swp
-/bundle/
-/sessions/
-yankring_history_v2.txt
+.vim/bundle/
+.vim/sessions/
+.vim/yankring_history_v2.txt
