@@ -125,3 +125,5 @@ Bundle "vim-ruby/vim-ruby"
 
 " puppet
 Bundle "rodjek/vim-puppet"
+
+Bundle "LaTeX-Suite-aka-Vim-LaTeX"
