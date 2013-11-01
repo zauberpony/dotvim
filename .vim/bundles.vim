@@ -53,7 +53,7 @@ Bundle 'python_match.vim'
 Bundle 'Raimondi/delimitMate'
 
 " syntax checker ?
-Bundle 'Syntastic' 
+" Bundle 'Syntastic' 
 
 " interactive replace
 Bundle "hwrod/interactive-replace"
@@ -122,4 +122,4 @@ Bundle "vim-ruby/vim-ruby"
 " puppet
 Bundle "rodjek/vim-puppet"
 
-Bundle "LaTeX-Suite-aka-Vim-LaTeX"
+" Bundle "LaTeX-Suite-aka-Vim-LaTeX"
