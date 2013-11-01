@@ -42,10 +42,6 @@ Bundle 'matchparenpp'
 " highlight the matching html tag
 Bundle 'MatchTag'
 
-" visually displaying indent levels in code
-" <leader>ig
-Bundle "nathanaelkane/vim-indent-guides"
-
 " ***** motion *****
 " move to words with <leader><leader>w etc.
 Bundle 'EasyMotion'
