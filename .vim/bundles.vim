@@ -99,7 +99,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'VimClojure'
 
 " html/tag helper
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'mattn/emmet-vim'
 
 " bashscript
 Bundle 'bash-support.vim'
