@@ -52,8 +52,8 @@ Bundle 'python_match.vim'
 " autoclose quotes, parens, brackets, etc and place cursor between them
 Bundle 'Raimondi/delimitMate'
 
-" syntax checker ?
-" Bundle 'Syntastic' 
+" syntax checker
+Bundle 'scrooloose/syntastic' 
 
 " interactive replace
 Bundle "hwrod/interactive-replace"
