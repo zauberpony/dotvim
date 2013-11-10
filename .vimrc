@@ -1,3 +1,8 @@
+" enable utf-8 for vimrc, we use it for listchars
+" freebsd has a problem with utf-8 in vimscripts
+scriptencoding utf-8
+set encoding=utf-8
+
 " vundle
 " set filetype off when sourcing vundle packages, so package ftdetect kicks in
 set nocompatible
