@@ -9,8 +9,8 @@ set background=light
 let g:solarized_contrast="high"
 colorscheme solarized
 
-let g:session_autosave = 1
-let g:session_autoload = 1
+"let g:session_autosave = 1
+"let g:session_autoload = 1
 
 " autosave on focus lost
 autocmd FocusLost * :wa
@@ -18,4 +18,5 @@ autocmd FocusLost * :wa
 " default aegimrLtT
 set guioptions=aegirLt
 
-
+" do not open nerdtree in gvim on startup
+let g:nerdtree_tabs_open_on_gui_startup=0
