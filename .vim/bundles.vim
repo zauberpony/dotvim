@@ -122,4 +122,7 @@ Bundle "vim-ruby/vim-ruby"
 " puppet
 Bundle "rodjek/vim-puppet"
 
+" Dockerfile syntax
+Bundle "ekalinin/Dockerfile.vim"
+
 " Bundle "LaTeX-Suite-aka-Vim-LaTeX"
