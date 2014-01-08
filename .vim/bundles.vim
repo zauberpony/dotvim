@@ -1,21 +1,11 @@
 Bundle 'gmarik/vundle'
 
-" ***** IDE like interface *****
+source ~/.vim/language-bundles.vim
+source ~/.vim/vcs-bundles.vim
+
+" ***** IDE like features
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
-
-" session manager, restore windows
-Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-session' 
-" toggle between one and multi window with <C-w>o
-Bundle 'ZoomWin' 
-
-" git integration
-Bundle 'tpope/vim-fugitive' 
-Bundle "airblade/vim-gitgutter"
-
-" addon for fugitive, browse file history with :Extradite
-Bundle 'int3/vim-extradite' 
 
 " easily open files, press <leader>n for fuzzy finding, F7 for buffers, F9 for
 " mru
@@ -28,101 +18,34 @@ Bundle 'Tagbar'
 Bundle 'mileszs/ack.vim'
 
 " ***** themes *****
-Bundle 'Lucius'
-Bundle 'wombat256.vim'
-
 Bundle "altercation/vim-colors-solarized"
 
 Bundle 'bling/vim-airline'
 
-" ***** visual addons *****
- 
-" show the matching bracket in the statusbar if not in the same line
-Bundle 'matchparenpp'
-" highlight the matching html tag
-Bundle 'MatchTag'
-
 " ***** motion *****
 " move to words with <leader><leader>w etc.
 Bundle 'EasyMotion'
-" match % for python
-Bundle 'python_match.vim' 
 
 " ***** edit helper *****
 " autoclose quotes, parens, brackets, etc and place cursor between them
 Bundle 'Raimondi/delimitMate'
 
-" syntax checker
-Bundle 'scrooloose/syntastic' 
-
-" interactive replace
-Bundle "hwrod/interactive-replace"
-
 " toggle linecomment with <leader>ci
 Bundle 'scrooloose/nerdcommenter'
 
+" surround.vim: quoting/parenthesizing made simple 
 Bundle 'surround.vim'
 
 " enable repeat key for plugins
 Bundle 'tpope/vim-repeat'
 
 " auto-completion
-Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neosnippet'
+Bundle "Valloric/YouCompleteMe"
+Bundle "SirVer/ultisnips"
 
 " help aligning tables, e.g. :Tabularize /|
 Bundle 'godlygeek/tabular'
 
-" history for registers
-Bundle 'YankRing.vim'
-
+" https://github.com/tpope/vim-speeddating — speeddating.vim: use
+" CTRL-A/CTRL-X to increment dates, times, and more 
 Bundle 'tpope/vim-speeddating'
-
-" ***** language/file support *****
-
-" automatically update the serial number in Bind DNS zone files
-Bundle 'zauberpony/UpdateDNSSerial'
-
-" go
-Bundle 'jnwhiteh/vim-golang'
-
-" coffeescript
-Bundle 'vim-coffee-script'
-Bundle 'coffee-check.vim'
-Bundle "leafgarland/typescript-vim"
-
-" javascript
-Bundle 'hallettj/jslint.vim'
-Bundle 'pangloss/vim-javascript'
-
-" clojure
-Bundle 'VimClojure'
-
-" html/tag helper
-Bundle 'mattn/emmet-vim'
-
-" bashscript
-Bundle 'bash-support.vim'
-
-" nagios/icinga config files
-Bundle 'nagios-syntax'
-
-" markdown markup
-Bundle 'hallison/vim-markdown'
-
-" rails/ruby
-Bundle "tpope/vim-rails"
-Bundle "sandeepravi/refactor-rails.vim"
-Bundle "MarcWeber/vim-addon-ruby-debug-ide"
-Bundle "lucapette/vim-ruby-doc.git"
-Bundle "ecomba/vim-ruby-refactoring"
-Bundle "tpope/vim-cucumber"
-Bundle "vim-ruby/vim-ruby"
-
-" puppet
-Bundle "rodjek/vim-puppet"
-
-" Dockerfile syntax
-Bundle "ekalinin/Dockerfile.vim"
-
-" Bundle "LaTeX-Suite-aka-Vim-LaTeX"
