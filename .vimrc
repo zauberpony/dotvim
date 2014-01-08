@@ -129,6 +129,7 @@ set pastetoggle=<F12>
 " ******************
 
 " plugin settings
+" passive mode for netnrw ftp
 let g:netrw_ftp_cmd="ftp -p"
 
 let NERDTreeChDirMode=2 " set root dir cds into it as wd
@@ -142,16 +143,6 @@ let g:NERDTreeMapActivateNode="<F8>"
 " and pressing tab
 let g:pydiction_location=""
 
-" no session autosaving for terminal vim
-let g:session_autosave = 0
-let g:session_autoload = 0
-
-" atomic saving — no longer enabled by default, enable via modeline etc. (if
-" possible), but this prevents encrypting files with vim
-" autocmd BufWriteCmd * call AtomicSave() 
-
-source ~/.vim/neocompl.vim
-
 " ctrlp
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_mruf_exclude='.*\.swp$'
@@ -163,10 +154,3 @@ let g:ctrlp_prompt_mappings = {
 let g:ctrlp_map = '<leader>n'
 
 map <leader>t :Tabularize /\|<cr>:sort u<CR>
-
-let g:yankring_history_dir = '$HOME/.vim'
-
-
-" indent guides
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_guide_size = 1
