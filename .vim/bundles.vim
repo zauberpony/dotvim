@@ -20,8 +20,6 @@ Bundle 'mileszs/ack.vim'
 " ***** themes *****
 Bundle "altercation/vim-colors-solarized"
 
-Bundle 'bling/vim-airline'
-
 " ***** motion *****
 " move to words with <leader><leader>w etc.
 Bundle 'EasyMotion'

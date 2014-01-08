@@ -45,6 +45,9 @@ hi CursorColumn ctermbg=235
 " I want a transparent background
 hi Normal ctermbg=none 
 
+" include vim powerline
+set rtp+=~/.dotfiles/powerline/powerline/bindings/vim
+
 " statusline appereance
 set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
 " always show statusline
