@@ -158,6 +158,6 @@ let g:ctrlp_map = '<leader>n'
 
 map <leader>t :Tabularize /\|<cr>:sort u<CR>
 
-let g:UltiSnipsExpandTrigger='<cr>'
+let g:UltiSnipsExpandTrigger='<c-j>'
 let g:UltiSnipsJumpForwardTrigger='<c-j>'
 let g:UltiSnipsJumpBackwardTrigger='<c-k>'
