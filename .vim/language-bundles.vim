@@ -49,6 +49,9 @@ Bundle 'scrooloose/syntastic'
 "Bundle 'hallettj/jslint.vim'
 "Bundle 'pangloss/vim-javascript'
 
+" better json support
+Bundle 'elzr/vim-json'
+
 " clojure
 "Bundle 'VimClojure'
 
