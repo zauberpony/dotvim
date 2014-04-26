@@ -57,3 +57,5 @@ Bundle 'elzr/vim-json'
 
 " match % for python
 "Bundle 'python_match.vim' 
+
+Bundle 'derekwyatt/vim-scala'
