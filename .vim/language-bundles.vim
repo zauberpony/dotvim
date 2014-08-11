@@ -59,3 +59,6 @@ Bundle 'elzr/vim-json'
 "Bundle 'python_match.vim' 
 
 Bundle 'derekwyatt/vim-scala'
+
+" ansible yaml markup
+Bundle 'chase/vim-ansible-yaml'
