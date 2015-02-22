@@ -6,6 +6,7 @@ source ~/.vim/vcs-bundles.vim
 " ***** IDE like features
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'Xuyuanp/nerdtree-git-plugin'
 
 " easily open files, press <leader>n for fuzzy finding, F7 for buffers, F9 for
 " mru
