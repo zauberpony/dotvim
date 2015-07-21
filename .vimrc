@@ -142,6 +142,8 @@ let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
 
 let g:NERDTreeMapActivateNode="<F8>"
 
+let g:nerdtree_tabs_autofind=1
+
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
 let g:pydiction_location=""

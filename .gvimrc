@@ -10,7 +10,7 @@ colorscheme solarized
 autocmd FocusLost * :wa
 
 " default aegimrLtT
-set guioptions=aegirLt
+set guioptions=aegimrLt
 
 " do not open nerdtree in gvim on startup
-let g:nerdtree_tabs_open_on_gui_startup=0
+let g:nerdtree_tabs_open_on_gui_startup=1
