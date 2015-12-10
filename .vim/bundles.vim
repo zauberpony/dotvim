@@ -7,6 +7,9 @@ source ~/.vim/vcs-bundles.vim
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'Xuyuanp/nerdtree-git-plugin'
+" vim-session requires vim-misc
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-session'
 
 " easily open files, press <leader>n for fuzzy finding, F7 for buffers, F9 for
 " mru
