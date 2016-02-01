@@ -8,7 +8,7 @@ set encoding=utf-8
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/ 
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 source ~/.vim/bundles.vim
