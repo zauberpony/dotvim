@@ -62,3 +62,6 @@ Bundle 'derekwyatt/vim-scala'
 
 " ansible yaml markup
 Bundle 'chase/vim-ansible-yaml'
+
+" nix lang
+Bundle 'LnL7/vim-nix'
