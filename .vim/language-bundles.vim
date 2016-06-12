@@ -40,10 +40,9 @@ Bundle 'scrooloose/syntastic'
 
 " Bundle "LaTeX-Suite-aka-Vim-LaTeX"
 
-" coffeescript
-"Bundle 'vim-coffee-script'
-"Bundle 'coffee-check.vim'
 "Bundle "leafgarland/typescript-vim"
+Bundle "lambdatoast/elm.vim"
+
 
 " javascript
 "Bundle 'hallettj/jslint.vim'
