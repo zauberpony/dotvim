@@ -9,9 +9,10 @@ set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
-
-source ~/.vim/bundles.vim
+call vundle#begin()
+source ~/.vim/plugins.vim
+call vundle#end()
+filetype plugin indent on
 
 " jump to the last position when reopening a file
 if has("autocmd")
