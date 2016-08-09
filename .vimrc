@@ -47,10 +47,10 @@ hi CursorColumn ctermbg=235
 hi Normal ctermbg=none 
 
 " include vim powerline
-set rtp+=~/.dotfiles/powerline/powerline/bindings/vim
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
 
-" statusline appereance
-set statusline=%<%F\ %h%m%r\ %y\ %{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
 " always show statusline
 set laststatus=2
 
