@@ -50,6 +50,9 @@ Plugin 'godlygeek/tabular'
 " CTRL-A/CTRL-X to increment dates, times, and more
 Plugin 'tpope/vim-speeddating'
 
+" highlight and strip (trailing) whitespace
+Plugin 'ntpeters/vim-better-whitespace'
+
 
 " **** language specific plugins
 " automatically update the serial number in Bind DNS zone files
