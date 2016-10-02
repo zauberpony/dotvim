@@ -47,9 +47,9 @@ hi CursorColumn ctermbg=235
 hi Normal ctermbg=none 
 
 " include vim powerline
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
 
 " always show statusline
 set laststatus=2
