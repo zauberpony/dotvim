@@ -1,18 +1,10 @@
-" enable utf-8 for vimrc, we use it for listchars
-" freebsd has a problem with utf-8 in vimscripts
-scriptencoding utf-8
-set encoding=utf-8
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
-" vundle
-" set filetype off when sourcing vundle packages, so package ftdetect kicks in
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 source ~/.vim/plugins.vim
-call vundle#end()
-filetype plugin indent on
 
 " jump to the last position when reopening a file
 if has("autocmd")
@@ -105,7 +97,7 @@ set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
 "uswitch among e.g. if/elsif/else/end, between opening and closing XML tags, and more
-runtime macros/matchit.vim
+" runtime macros/matchit.vim
 
 " ignore whitespace in vimdiff
 set diffopt+=iwhite
@@ -119,15 +111,11 @@ map <C-Right> <C-w>l
 map ö :
 map Ö :
 
-map <F5> :silent !xdg-open %<CR>
-" show the yank ring
-map <F6> :YRShow<CR>
 " scroll to the current file in the nerdtree
-map <F8> :NERDTreeFind<CR>
+" map <F8> :NERDTreeFind<CR>
 "  search through mru
-map <F9> :CtrlPMRUFiles<CR>
 map <F10> :NERDTreeTabsToggle<CR>
-map <F11> :TagbarOpen fj<CR>
+" map <F11> :TagbarOpen fj<CR>
 set pastetoggle=<F12>
 
 " ******************
@@ -136,33 +124,17 @@ set pastetoggle=<F12>
 " passive mode for netnrw ftp
 let g:netrw_ftp_cmd="ftp -p"
 
-let NERDTreeChDirMode=2 " set root dir cds into it as wd
-let g:NERDTreeWinSize=45
-let g:NERDTreeShowBookmarks=1
-let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
+" let NERDTreeChDirMode=2 " set root dir cds into it as wd
+" let g:NERDTreeWinSize=45
+" let g:NERDTreeShowBookmarks=1
+" let NERDTreeIgnore = ['\~$', '\.pyc', 'target']
 
-let g:NERDTreeMapActivateNode="<F8>"
+" let g:NERDTreeMapActivateNode="<F8>"
 
-let g:nerdtree_tabs_autofind=1
+" let g:nerdtree_tabs_autofind=1
 
 " set the pydiction_location to prevent errors when not editing python files
 " and pressing tab
 let g:pydiction_location=""
 
-" ctrlp
-let g:ctrlp_working_path_mode = 2
-let g:ctrlp_mruf_exclude='.*\.swp$'
-let g:ctrlp_prompt_mappings = {
-  \ 'AcceptSelection("e")': [],
-  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
-  \ }
-
-let g:ctrlp_map = '<leader>n'
-
 map <leader>t :Tabularize /\|<cr>:sort u<CR>
-
-let g:UltiSnipsExpandTrigger='<c-j>'
-let g:UltiSnipsJumpForwardTrigger='<c-j>'
-let g:UltiSnipsJumpBackwardTrigger='<c-k>'
-
-let g:session_autosave = 'no'

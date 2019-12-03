@@ -1,5 +1,6 @@
+.vim/autoload/plug.vim
+.vim/plugged
 .vim/.netrwhist
 .swp
-.vim/bundle/
 .vim/sessions/
 .vim/yankring_history_v2.txt
