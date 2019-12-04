@@ -138,3 +138,7 @@ let g:netrw_ftp_cmd="ftp -p"
 let g:pydiction_location=""
 
 map <leader>t :Tabularize /\|<cr>:sort u<CR>
+
+
+" setup fzf (use with :fzf)
+source /usr/share/doc/fzf/examples/fzf.vim
