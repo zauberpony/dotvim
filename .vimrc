@@ -81,7 +81,7 @@ set modeline
 if version >= 703
     set relativenumber
     set undofile
-    set undodir=~/.vim/undodir/
+    set undodir=~/.cache/vim-undo
 else
     set number
 endif
