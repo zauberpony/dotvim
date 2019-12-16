@@ -139,6 +139,9 @@ let g:pydiction_location=""
 
 map <leader>t :Tabularize /\|<cr>:sort u<CR>
 
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " setup fzf (use with :fzf)
 source /usr/share/doc/fzf/examples/fzf.vim

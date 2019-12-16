@@ -1,1 +1,1 @@
-au BufNewFile,BufRead playbook.yml set filetype=ansible
+au BufRead,BufNewFile */ansible/*.yml set filetype=yaml.ansible
